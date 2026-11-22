@@ -1,0 +1,10 @@
+claim_code,claim,first_seen,posts_in_collection,views_in_collection,languages,status,status_basis,source_url
+4j,The ICJ lacks jurisdiction over Sudan's case against the UAE (argument made before the ruling),Apr 2025,1,56521,ar,Consistent with the ruling,"The ICJ removed the case for manifest lack of jurisdiction on May 5, 2025",https://api.icj-cij.org/sites/default/files/case-related/197/197-20250505-pre-01-00-en.pdf
+15R,An anti-UAE campaign fabricated the account of al-Zubaidi's flight through Berbera,Jan 2026,1,116,ar,Unproven,No evidence offered,
+N1,Sudan's air force destroyed a UAE plane carrying Colombian contractors at Nyala,Aug 2025,1,115320,ar,Unproven,Announced on army-aligned state TV; the UAE called it false; Colombia's president said his government was trying to establish how many Colombians died,https://www.aljazeera.com/news/2025/8/7/sudan-says-army-destroyed-uae-aircraft-killing-40-colombian-mercenaries
+N2,A video shows an Emirati officer directing RSF fighters,Nov 2026,1,7069,ar,Unverified,The video has not been authenticated,
+N3,The UAE began sending weapons to Somaliland,Dec 2025,1,13819,ar,Unproven,No evidence offered,
+N4,An attack struck the UAE embassy in Addis Ababa,Oct 2026,1,4253,am,No corroboration found,Blasts reported in Addis Ababa that month targeted military sites,https://acleddata.com/expert-comment/blasts-addis-ababa-signal-dangerous-new-phase-ethiopias-conflict
+E24,Somalia gave the UAE ambassador 24 hours to leave,Nov 2026,2,367597,ar,False,The cabinet decision gave 72 hours,https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty
+E72,Somalia gave the UAE ambassador 72 hours to leave,Nov 2026,4,1092,ar;so,Accurate,Matches the cabinet decision,https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty
+gen,General framing about the UAE with no specific factual claim,,2,6356,ar;so,Not applicable,,

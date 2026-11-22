@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite them as below."
+type: dataset
+title: "The UAE's Role in the Horn of Africa: Claims, Evidence and Circulation"
+version: "1.0"
+date-released: 2026-11-23
+authors:
+  - family-names: Sugebo
+    given-names: Abel W.
+    affiliation: "Inform Africa/HaqCheck"
+license: CC-BY-4.0
+abstract: >-
+  A register of 17 claims about the United Arab Emirates' role in Sudan, Somalia and
+  Somaliland, Ethiopia and Eritrea, each rated on a five-level evidence scale, with
+  monthly English and Arabic news coverage counts from Media Cloud (January 2025 to
+  November 2026) and a coded collection of 89 X posts in five languages.
+keywords:
+  - information integrity
+  - disinformation
+  - Horn of Africa
+  - Sudan
+  - Somalia
+  - Ethiopia
+  - Eritrea
+  - United Arab Emirates
+  - fact-checking
+  - media monitoring

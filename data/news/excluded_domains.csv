@@ -1,0 +1,6 @@
+set_id,language,domain,matches,headline_hits,method
+D,en,thestar.com,32695,,"Excluded in the query after a sample of matches showed page-template text, not Somalia coverage"
+D,en,annistonstar.com,3566,,Excluded in the query for the same reason
+D,en,dailypost.vu,158,0,Rule: 30 or more matches and under 5% of headlines on topic
+D,en,gulfnews.com,31,1,Rule: 30 or more matches and under 5% of headlines on topic
+E,en,timesofisrael.com,69,2,Rule: 30 or more matches and under 5% of headlines on topic

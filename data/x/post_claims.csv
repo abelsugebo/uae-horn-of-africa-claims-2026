@@ -1,0 +1,116 @@
+post_id,claim_code,stance,evidence,coding_note
+1990123917088874752,1,Asserts,Yes,Endorses 1 to 3
+1990123917088874752,2,Asserts,Yes,Endorses 1 to 3
+1990123917088874752,3,Asserts,Yes,Endorses 1 to 3
+1921142787967181271,1,Reports,Yes,Reports 1
+2116538384260690051,1,Reports,Yes,"Reports 1, records denial"
+2118804622026412139,1,Asserts,Yes,"Endorses 1, 3"
+2118804622026412139,3,Asserts,Yes,"Endorses 1, 3"
+2123526150299214067,1,Asserts,Yes,Endorses 1
+2123006317304353093,1,Asserts,Yes,"Endorses 1 to 3, records denial"
+2123006317304353093,2,Asserts,Yes,"Endorses 1 to 3, records denial"
+2123006317304353093,3,Asserts,Yes,"Endorses 1 to 3, records denial"
+2123250853989499303,1,Asserts,Yes,Endorses 1 to 3
+2123250853989499303,2,Asserts,Yes,Endorses 1 to 3
+2123250853989499303,3,Asserts,Yes,Endorses 1 to 3
+2123235811558621578,2,Asserts,Yes,Endorses 2 to 3
+2123235811558621578,3,Asserts,Yes,Endorses 2 to 3
+2122954410527486070,2,Asserts,Yes,"Endorses 2, records denial"
+2123465765613343154,2,Asserts,No,"Endorses 2, 6, 7"
+2123465765613343154,6,Asserts,No,"Endorses 2, 6, 7"
+2123465765613343154,7,Asserts,No,"Endorses 2, 6, 7"
+2121295805848187027,1,Disputes,No,Denial of 1
+2121308320036200832,1,Asserts,No,Rejects the denial
+2121328341357940794,1,Asserts,Yes,Evidence list vs denial
+2121729899396305031,3,Asserts,Yes,"Rejects denial, claim 3"
+2121680892640805123,1,Asserts,Yes,Rejects denial
+2121325722447012350,1,Asserts,Yes,Rejects denial
+2123174244578152685,1,Reports,Yes,Records both
+1924425178957692936,4,Asserts,No,Misleading shorthand
+2121328341357940794,4,Disputes,Yes,Correction
+2121310887193858407,4,Disputes,Yes,Correction
+2123525996544676298,6,Reports,Yes,President's charges
+2123525996544676298,7,Reports,Yes,President's charges
+2123525996544676298,8,Reports,Yes,President's charges
+2123525996544676298,9,Reports,Yes,President's charges
+2123560899671728437,6,Reports,Yes,Reuters + Le Monde
+2123560899671728437,7,Reports,Yes,Le Monde trenches
+2014471905320042598,6,Reports,Yes,Defense minister on cancellation
+2017361600772985074,7,Asserts,Partial,"Imagery; says operator unknown, UAE leading candidate"
+2017361600772985074,9,Asserts,No,Cites Zubaidi use
+2123473523335471318,8,Reports,Yes,Charge rests on refusal to condemn
+2123427297823002968,8,Disputes,No,Pushback
+2123347800947605554,8,Reports,Yes,Headline bundles UAE with Israel
+2014720578192613627,9,Reports,Yes,Coalition allegation
+2013835882105540844,6,Reports,Yes,WaPo translation
+2013835882105540844,9,Reports,Yes,WaPo translation
+2017312098699907181,9,Disputes,No,Denial inside campaign claim
+2017312098699907181,15R,Asserts,No,Claims anti-UAE campaign
+2017987175426703717,9,Reports,Yes,Saudi media claim + STC denial
+2123030586919178313,13,Disputes,No,By omission
+2123130748219912570,13,Asserts,Yes,Correction citing AP
+2123237755342004287,13,Asserts,No,Affirmed
+1338852912873746432,12,Reports,Yes,Imagery: no drone activity
+2122496105074004225,11,Asserts,No,No transfer named
+2122494637386371288,11,Asserts,No,Same claim
+2123446146349650351,11,Asserts,No,
+2123446146349650351,14,Asserts,No,
+2121841339147186350,14,Asserts,No,
+2123098207940907013,14,Asserts,No,
+2123482527276921331,1,Asserts,Partial,"Photos, cites OSINT account"
+2123482527276921331,6,Asserts,Partial,
+2123482527276921331,11,Asserts,Partial,
+2122398309063311477,11,Asserts,No,Arms flights claim
+2122398309063311477,16,Asserts,No,RSF camp in Assosa
+2116210813358727244,10,Asserts,Yes,Primary: thanks Ethiopia MFA
+2051350503930593723,11,Asserts,No,
+2051350503930593723,16,Asserts,No,Assosa camp with UAE support
+2055955942223618055,11,Asserts,No,
+2055955942223618055,14,Asserts,No,
+2103064725621743725,11,Asserts,No,
+2122553146564042777,15,Reports,Yes,Accurate Anthropic summary
+2123488781210689608,15,Reports,Partial,No report title
+2120306234251227570,15,Asserts,Yes,"Cites DFRLab, Jones; partly accurate"
+2019350790406611039,1,Asserts,Yes,HRW World Report entry on UAE arming RSF
+2118430677343293734,2,Reports,Yes,NYT on UN investigators
+2118430677343293734,3,Reports,Yes,NYT on UN investigators
+1988909417056633174,1,Asserts,Partial,Photos of seized UAE-plated vehicles
+2118409958043644249,2,Reports,Yes,NYT on UN investigators
+2118409958043644249,3,Reports,Yes,NYT on UN investigators
+1915823837025087529,4j,Asserts,Partial,ICJ lacks jurisdiction; Serbia backs UAE (pre-ruling)
+2118505221274132779,2,Reports,Yes,NYT/UN
+2118505221274132779,3,Reports,Yes,NYT/UN
+1953527855943451133,N1,Asserts,Partial,Cites Le Monde on SAF downing UAE plane
+1953527855943451133,2,Asserts,Partial,Colombians aboard
+2051455821892976894,17,Asserts,Partial,Cites SAF spokesman
+1896819591373893707,3,Reports,Partial,Colombian paper: GSSG pays recruits
+2122201069979676919,1,Asserts,No,Video of Emirati officer
+2122201069979676919,N2,Asserts,No,Officer told RSF not to film weapons
+1910159184399573318,1,Asserts,No,
+2006038689483280571,1,Asserts,No,
+2006038689483280571,N3,Asserts,No,UAE arming Somaliland
+2103948874448617795,1,Asserts,Partial,SAF seized weapons stores
+1910446093814681715,4,Disputes,Yes,ICJ statement: no ruling yet
+2059135773232992502,3,Reports,Yes,HRW report
+2123375692419326031,8,Asserts,No,Expulsion as rejecting UAE role in Israeli project
+2123375692419326031,E24,Asserts,No,24-hour deadline
+2123434856801784005,E24,Reports,No,24-hour deadline
+2123482256228671997,gen,Asserts,No,General anti-UAE framing
+2123509034741350560,E72,Reports,No,"72 hours, envoy recalled"
+2123390158527459541,E72,Reports,No,Cabinet decision
+2122716958101504234,6,Asserts,No,President made UAE port deals
+2122742353567900055,9,Reports,No,President's accusation
+2123381782498394368,E72,Reports,No,
+2123425286708748661,gen,Asserts,No,Supports expulsion
+2123394585338454187,E72,Reports,No,
+2021235384110535112,16,Reports,Yes,"Attributes UAE training to Reuters, which did not verify it"
+2018982494402498752,11,Asserts,No,
+2018982494402498752,1,Asserts,No,
+2097177165787967732,11,Asserts,No,"UAE proxy, drone losses"
+2105402542343491711,11,Asserts,No,UAE weapons in Tigray fighting
+2106447601809895618,14,Asserts,No,Assab push directed by UAE
+2114797867873538453,11,Asserts,No,UAE supplies all weapons
+2111842853420949843,14,Asserts,No,Eritrea MoI: UAE ties serve sea-access agenda
+2108078579892514965,14,Asserts,No,Eritrea MoI: Assab plan ordered by UAE
+2022472394921623704,16,Reports,Partial,US House committee statement
+2109681466074415230,N4,Asserts,No,No corroboration found

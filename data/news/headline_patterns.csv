@@ -1,0 +1,13 @@
+set_id,language,uae_headline_pattern,topic_headline_pattern,contamination_check_pattern,flags
+A,en,\b(uae|u\.a\.e|emirat\w*|abu dhabi|dp world)\b,\b(rsf|rapid support|sudan\w*)\b,rsf|rapid support|sudan,case-insensitive
+A,ar,الإمارات|الامارات|إمارات|امارات|إماراتي|اماراتي|أبوظبي|ابوظبي|أبو ظبي|موانئ دبي,الدعم السريع|السودان|سوداني,الدعم السريع|السودان|الدعم,case-insensitive
+B,en,\b(uae|u\.a\.e|emirat\w*|abu dhabi|dp world)\b,colombia,colombia|sudan|darfur|fasher|mercenar,case-insensitive
+B,ar,الإمارات|الامارات|إمارات|امارات|إماراتي|اماراتي|أبوظبي|ابوظبي|أبو ظبي|موانئ دبي,كولومبي,كولومبي|الفاشر|دارفور|السودان|مرتزق,case-insensitive
+C,en,\b(uae|u\.a\.e|emirat\w*|abu dhabi|dp world)\b,\b(icj|world court|international court|genocide case)\b,icj|court|sudan|genocide,case-insensitive
+C,ar,الإمارات|الامارات|إمارات|امارات|إماراتي|اماراتي|أبوظبي|ابوظبي|أبو ظبي|موانئ دبي,العدل الدولية|محكمة,العدل|المحكمة|السودان|الإبادة,case-insensitive
+D,en,\b(uae|u\.a\.e|emirat\w*|abu dhabi|dp world)\b,somal|berbera|puntland|bosaso|jubaland|kismayo,somal|berbera|puntland|bosaso|jubaland|kismayo|dp world,case-insensitive
+D,ar,الإمارات|الامارات|إمارات|امارات|إماراتي|اماراتي|أبوظبي|ابوظبي|أبو ظبي|موانئ دبي,الصومال|صومال|بربرة|بونتلاند|بوصاصو|كسمايو|جوبالاند,الصومال|صومال|بربرة|بونتلاند|بوصاصو|كسمايو|جوبالاند|موانئ دبي,case-insensitive
+E,en,\b(uae|u\.a\.e|emirat\w*|abu dhabi|dp world)\b,tigray|tplf|assab|ethiopia|eritrea,tigray|tplf|assab|ethiopia|eritrea,case-insensitive
+E,ar,الإمارات|الامارات|إمارات|امارات|إماراتي|اماراتي|أبوظبي|ابوظبي|أبو ظبي|موانئ دبي,تيغراي|تيجراي|عصب|إثيوبيا|اثيوبيا|إريتريا|اريتريا,تيغراي|تيجراي|عصب|إثيوبيا|اثيوبيا|إريتريا|اريتريا,case-insensitive
+F,en,\b(uae|u\.a\.e|emirat\w*|abu dhabi|dp world)\b,fake|\bbots?\b|influence|disinformation|inauthentic|propaganda|troll,fake|bot|influence|disinformation|inauthentic|campaign|propaganda,case-insensitive
+F,ar,الإمارات|الامارات|إمارات|امارات|إماراتي|اماراتي|أبوظبي|ابوظبي|أبو ظبي|موانئ دبي,وهمية|الذباب|تضليل|حسابات,وهمية|الذباب|تضليل|حسابات|حملة,case-insensitive
