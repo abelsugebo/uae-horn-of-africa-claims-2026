@@ -15,7 +15,7 @@ All files are UTF-8 CSV with a header row. Empty cells mean the value was not re
 | evidence_markdown | The same summary with inline source links |
 | source_urls | URLs cited in the evidence, separated by semicolons |
 
-Verdicts are as of November 21, 2026. A denial by the UAE government is recorded in the evidence but does not change a verdict on its own.
+Verdicts reflect public evidence as of November 19, 2026. A denial by the UAE government is recorded in the evidence but does not change a verdict on its own.
 
 ## data/claims/verdict_scale.csv
 
@@ -84,7 +84,7 @@ One row per query set, language and month, January 2025 to November 2026. Novemb
 | distinct_headlines | Distinct normalized headlines, each counted in the month it first appeared |
 | uae_headlines | Distinct headlines that match both the UAE pattern and the topic pattern in `headline_patterns.csv` |
 
-Headlines are normalized by lowercasing, replacing every character that is not a letter or digit with a space, and collapsing spaces. Topics overlap: a headline about the ICJ case that names Sudan counts under both topics.
+Headlines are normalized by lowercasing, replacing every character that is not a letter or digit with a space, and collapsing spaces. Deduplication happens **within each topic/language search**. The sum of `distinct_headlines` (12,281) is therefore a sum of within-search counts, not a globally unique headline total. The sum of `uae_headlines` (980) is also not a globally unique count. Topics overlap: a headline about the ICJ case that names Sudan counts under both topics.
 
 ## data/news/corpus_monthly_totals.csv
 
