@@ -5,7 +5,7 @@ Data and code behind the Inform Africa/HaqCheck report *The UAE's Role in the Ho
 The report separates what is documented about the United Arab Emirates' role in the conflicts and crises of Sudan, Somalia and Somaliland, Ethiopia and Eritrea from what is asserted without evidence, and measures how each claim circulates in news coverage and on X. This repository holds three datasets:
 
 1. **Claims register.** 17 claims, each rated on a five-level evidence scale with the sources behind the rating, plus claims that surfaced during monitoring.
-2. **News coverage.** Monthly counts from the Media Cloud online news archive for six topics, in English and Arabic, January 1, 2025 to November 19, 2026.
+2. **News coverage.** Monthly counts from the Media Cloud online news archive for six topics, in English and Arabic, January 1, 2025 to November 19, 2026. Headlines are deduplicated within each topic/language search, not across all searches.
 3. **X posts.** 89 posts in English, Arabic, Somali, Amharic and Tigrinya, coded by claim, stance and evidence.
 
 ## Repository structure
@@ -46,6 +46,7 @@ METHODOLOGY.md                        How the data were collected, cleaned and c
 - Of the 17 claims, 8 are established, 1 is credibly reported, 7 are unproven and 1 is misleading. The established claims of military support for a warring party all concern the Rapid Support Forces (RSF) in Sudan.
 - In the news archive, 595 distinct headlines named the UAE together with Sudan or the RSF, against 204 for Somalia and Somaliland, 118 for the ICJ case, 32 for Ethiopia and Eritrea, 26 for the Colombian contractors and 5 for UAE-linked influence operations.
 - UAE headlines peaked around legal and diplomatic events: 99 in May 2025 (the ICJ dismissal, Sudan's break with the UAE and an Amnesty International arms report) and 65 in January 2026 (Somalia's annulment of its UAE agreements).
+- **Count definition:** Across the 12 topic/language searches, `distinct_headlines` sums to **12,281**, after deduplication within each search. This is **not** a count of globally unique headlines because the topic searches overlap. The six `uae_headlines` topic counts sum to **980**, again with possible overlaps. Neither sum should be presented as a globally deduplicated count.
 - On X, posts by UAE officials and the Emirati political scientist Abdulkhaleq Abdulla account for 52 percent of the views in the collection. Among Arabic posts on the claims, 41 percent of views went to posts citing a document or investigation, against 19 percent in English.
 
 The scripts reproduce these figures from the files in `data/`. The collection of X posts is a purposive sample, so its shares describe the posts collected, not X as a whole. See `METHODOLOGY.md` for limitations.
@@ -81,4 +82,4 @@ Abel W. Sugebo is Executive Director and Founder of Inform Africa/HaqCheck, a re
 
 ## Version
 
-1.0, November 2026. Claims are assessed as of November 21, 2026; news data run to November 19, 2026.
+1.0, November 2026. Claim verdicts reflect public evidence as of November 19, 2026; news data run to November 19, 2026; X posts were collected November 19 to 21, 2026.
