@@ -1,6 +1,6 @@
 # The UAE's Role in the Horn of Africa: Claims, Evidence and Circulation
 
-Data and code behind the Inform Africa/HaqCheck report *The UAE's Role in the Horn of Africa: What Is Documented and What Is Not* (November 2026) by Abel W. Sugebo. Read the report: [PDF in this repository](report/UAE_Role_Horn_of_Africa_Abel_W_Sugebo_Nov2026.pdf) or on [informafrica.net](https://informafrica.net/reports/).
+Data and code behind the Inform Africa/HaqCheck report *The UAE's Role in the Horn of Africa: What Is Documented and What Is Not* (November 2026) by Abel W. Sugebo. Read the report: [PDF in this repository](report/UAE_Role_Horn_of_Africa_Abel_W_Sugebo_Nov2026.pdf) or on [informafrica.net](https://informafrica.net/2026/11/23/the-uaes-role-in-the-horn-of-africa/).
 
 The report separates what is documented about the United Arab Emirates' role in the conflicts and crises of Sudan, Somalia and Somaliland, Ethiopia and Eritrea from what is asserted without evidence, and measures how each claim circulates in news coverage and on X. This repository holds three datasets:
 
