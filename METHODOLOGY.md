@@ -2,7 +2,7 @@
 
 ## 1. Claims register
 
-The register covers claims about the UAE's role in Sudan, Somalia and Somaliland, Ethiopia and Eritrea that appear in news coverage, official statements and social media. Claims 1 to 15 were set before monitoring began; claims 16 and 17 were added when monitoring showed they circulated widely. Each claim was assessed against public evidence and given one of five verdicts (see `data/claims/verdict_scale.csv`). Investigations, official findings, court records, sanctions designations and physical or satellite evidence carry the most weight. A denial by the UAE government is recorded but does not change a verdict on its own; neither does an accusation by another government. Verdicts are as of November 21, 2026 and will be revised if new evidence emerges.
+The register covers claims about the UAE's role in Sudan, Somalia and Somaliland, Ethiopia and Eritrea that appear in news coverage, official statements and social media. Claims 1 to 15 were set before monitoring began; claims 16 and 17 were added when monitoring showed they circulated widely. Each claim was assessed against public evidence and given one of five verdicts (see `data/claims/verdict_scale.csv`). Investigations, official findings, court records, sanctions designations and physical or satellite evidence carry the most weight. A denial by the UAE government is recorded but does not change a verdict on its own; neither does an accusation by another government. Verdicts reflect public evidence as of November 19, 2026 and will be revised if new evidence emerges.
 
 Claims that surfaced during monitoring but fall outside the register are listed in `data/claims/additional_claims.csv` with a status and its basis.
 
@@ -17,10 +17,10 @@ Claims that surfaced during monitoring but fall outside the register are listed 
 **Cleaning.** Three steps:
 
 1. Outlets whose page templates produced false matches were excluded. The rule: 30 or more matches with fewer than 5 percent of headlines on topic. Two further outlets were excluded after a sample of their matches showed page-template text rather than relevant coverage. All exclusions are in `data/news/excluded_domains.csv`.
-2. Stories were deduplicated by normalized headline, because a network of sites republishing wire copy under country names inflated some monthly counts nearly sevenfold. Each distinct headline is counted once, in the month it first appeared.
+2. Stories were deduplicated by normalized headline **within each topic/language search**, because a network of sites republishing wire copy under country names inflated some monthly counts nearly sevenfold. Each normalized headline is counted once per search, in the month it first appeared in that search. Searches were not deduplicated against one another.
 3. The headline measure counts only distinct headlines that name the UAE together with the topic, using the patterns in `data/news/headline_patterns.csv`.
 
-After exclusions the searches matched 16,811 stories with 12,281 distinct headlines.
+After exclusions, the searches matched 16,811 stories. The sum of within-search distinct headline counts is 12,281. Because topics can overlap, **12,281 must not be described as 12,281 globally unique news headlines**. Across topics, `uae_headlines` sums to 980; these topical counts can likewise overlap.
 
 **Checks.** Story-level totals matched Media Cloud's aggregate counts for every query. A random check of 24 headlines counted by the headline measure found all of them were about the UAE's role or relations in the country concerned.
 
