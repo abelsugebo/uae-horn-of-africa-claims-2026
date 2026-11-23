@@ -1,6 +1,6 @@
 # The UAE's Role in the Horn of Africa: Claims, Evidence and Circulation
 
-Data and code behind the Inform Africa/HaqCheck report *The UAE's Role in the Horn of Africa: What Is Documented and What Is Not* (November 2026) by Abel W. Sugebo. Read the **current report (version 1.1, November 23, 2026)**: [PDF on Inform Africa](https://informafrica.net/wp-content/uploads/2026/11/UAE_Role_Horn_of_Africa_Abel_W_Sugebo_Nov2026_v1-1.pdf) or [report landing page](https://informafrica.net/2026/11/23/the-uaes-role-in-the-horn-of-africa/). The PDF currently stored in this repository is the earlier version 1.0; use the linked v1.1 PDF for citation. A shorter article on the findings: [The UAE in the Horn of Africa: What the Evidence Shows](https://informafrica.net/2026/11/23/uae-horn-of-africa-evidence/).
+Data and code behind the Inform Africa/HaqCheck report *The UAE's Role in the Horn of Africa: What Is Documented and What Is Not* (November 2026) by Abel W. Sugebo. Read the **current report (version 1.1, November 23, 2026)**: [PDF in this repository](report/UAE_Role_Horn_of_Africa_Abel_W_Sugebo_Nov2026_v1-1.pdf), the identical [PDF on Inform Africa](https://informafrica.net/wp-content/uploads/2026/11/UAE_Role_Horn_of_Africa_Abel_W_Sugebo_Nov2026_v1-1.pdf) or the [report landing page](https://informafrica.net/2026/11/23/the-uaes-role-in-the-horn-of-africa/). A shorter article on the findings: [The UAE in the Horn of Africa: What the Evidence Shows](https://informafrica.net/2026/11/23/uae-horn-of-africa-evidence/).
 
 The report separates what is documented about the United Arab Emirates' role in the conflicts and crises of Sudan, Somalia and Somaliland, Ethiopia and Eritrea from what is asserted without evidence, and measures how each claim circulates in news coverage and on X. This repository holds three datasets:
 
@@ -12,7 +12,7 @@ The report separates what is documented about the United Arab Emirates' role in 
 
 ```
 report/
-  UAE_Role_Horn_of_Africa_Abel_W_Sugebo_Nov2026.pdf  The full report
+  UAE_Role_Horn_of_Africa_Abel_W_Sugebo_Nov2026_v1-1.pdf  The full report, version 1.1
   cover.jpg, social-card.png, web-hero.jpg, figure1-claims-by-verdict.png,
   web-headlines-by-topic.png                     Report and article images
 data/
@@ -73,7 +73,7 @@ Government bodies, officials, news outlets, organizations and public figures app
 
 ## Citation
 
-Sugebo, Abel W. (2026). *The UAE's Role in the Horn of Africa: Claims, Evidence and Circulation* (Version 1.0) [Data set]. Inform Africa/HaqCheck.
+Sugebo, Abel W. (2026). *The UAE's Role in the Horn of Africa: Claims, Evidence and Circulation* (Version 1.1) [Data set]. Inform Africa/HaqCheck.
 
 Machine-readable citation details are in `CITATION.cff`. News counts come from Media Cloud; please also cite Media Cloud when reusing them: https://doi.org/10.1609/icwsm.v20i1.42778
 
@@ -87,7 +87,7 @@ Abel W. Sugebo is Executive Director and Founder of Inform Africa/HaqCheck, a re
 
 ## Version
 
-1.1, November 23, 2026. No data values changed. Clarifies that the story, headline and UAE-headline totals are sums across overlapping searches, describes what can and cannot be reproduced, and replaces the report PDF with version 1.1 (count wording, key figures and a legible Annex A).
+1.1, November 23, 2026. No data values changed. Clarifies that the story, headline and UAE-headline totals are sums across overlapping searches, describes what can and cannot be reproduced, and replaces the report PDF with version 1.1 (count wording, key figures and a legible Annex A). The PDF's file name carries its version, and the file is identical to the copy on informafrica.net (SHA-256 `70fb50cb030968a1d7624b0b2c466c036222ada2e1b9d2541131fc3814d45f12`). The version 1.0 PDF remains in the repository history, for example at commit `5288d46`.
 
 1.0, November 2026. First release.
 
