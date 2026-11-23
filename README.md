@@ -1,8 +1,8 @@
 # The UAE's Role in the Horn of Africa: Claims, Evidence and Circulation
 
-Data and code behind the Inform Africa brief *The UAE's Role in the Horn of Africa: What Is Documented and What Is Not* (November 2026) by Abel W. Sugebo. Article link: to be added at publication.
+Data and code behind the Inform Africa/HaqCheck report *The UAE's Role in the Horn of Africa: What Is Documented and What Is Not* (November 2026) by Abel W. Sugebo. Read the report: [PDF in this repository](report/UAE_Role_Horn_of_Africa_Abel_W_Sugebo_Nov2026.pdf) or on [informafrica.net](https://informafrica.net/reports/).
 
-The brief separates what is documented about the United Arab Emirates' role in the conflicts and crises of Sudan, Somalia and Somaliland, Ethiopia and Eritrea from what is asserted without evidence, and measures how each claim circulates in news coverage and on X. This repository holds three datasets:
+The report separates what is documented about the United Arab Emirates' role in the conflicts and crises of Sudan, Somalia and Somaliland, Ethiopia and Eritrea from what is asserted without evidence, and measures how each claim circulates in news coverage and on X. This repository holds three datasets:
 
 1. **Claims register.** 17 claims, each rated on a five-level evidence scale with the sources behind the rating, plus claims that surfaced during monitoring.
 2. **News coverage.** Monthly counts from the Media Cloud online news archive for six topics, in English and Arabic, January 1, 2025 to November 19, 2026.
@@ -11,6 +11,9 @@ The brief separates what is documented about the United Arab Emirates' role in t
 ## Repository structure
 
 ```
+report/
+  UAE_Role_Horn_of_Africa_Abel_W_Sugebo_Nov2026.pdf  The full report
+  cover.jpg, social-card.png, figure1-claims-by-verdict.png  Report images
 data/
   claims/
     claims_register.csv               17 claims, verdicts, evidence and source links
@@ -31,8 +34,8 @@ data/
     post_frames.csv                   Framing codes for UAE-side posts on Somalia
 scripts/
   verify_post_ids.py                  Checks each post ID against its recorded time
-  summarize_x.py                      Reproduces the X figures in the brief
-  summarize_news.py                   Reproduces the news figures in the brief
+  summarize_x.py                      Reproduces the X figures in the report
+  summarize_news.py                   Reproduces the news figures in the report
 CODEBOOK.md                           Every variable and code value
 METHODOLOGY.md                        How the data were collected, cleaned and coded
 ```
