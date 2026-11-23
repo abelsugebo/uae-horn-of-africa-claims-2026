@@ -13,7 +13,7 @@ The report separates what is documented about the United Arab Emirates' role in 
 ```
 report/
   UAE_Role_Horn_of_Africa_Abel_W_Sugebo_Nov2026.pdf  The full report
-  cover.jpg, social-card.png, figure1-claims-by-verdict.png  Report images
+  cover.jpg, social-card.png, web-hero.jpg, figure1-claims-by-verdict.png  Report images
 data/
   claims/
     claims_register.csv               17 claims, verdicts, evidence and source links
