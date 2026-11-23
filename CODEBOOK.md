@@ -80,7 +80,7 @@ One row per query set, language and month, January 2025 to November 2026. Novemb
 | Variable | Description |
 | --- | --- |
 | set_id, topic, language, month | Keys; month is YYYY-MM |
-| stories | Matching stories after domain exclusions, before deduplication |
+| stories | Stories matching this search after domain exclusions, before deduplication. A story that matches more than one search appears in each, so the column sum (16,811) is not a count of unique stories |
 | distinct_headlines | Distinct normalized headlines, each counted in the month it first appeared |
 | uae_headlines | Distinct headlines that match both the UAE pattern and the topic pattern in `headline_patterns.csv` |
 

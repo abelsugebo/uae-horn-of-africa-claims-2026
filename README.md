@@ -46,10 +46,15 @@ METHODOLOGY.md                        How the data were collected, cleaned and c
 - Of the 17 claims, 8 are established, 1 is credibly reported, 7 are unproven and 1 is misleading. The established claims of military support for a warring party all concern the Rapid Support Forces (RSF) in Sudan.
 - In the news archive, 595 distinct headlines named the UAE together with Sudan or the RSF, against 204 for Somalia and Somaliland, 118 for the ICJ case, 32 for Ethiopia and Eritrea, 26 for the Colombian contractors and 5 for UAE-linked influence operations.
 - UAE headlines peaked around legal and diplomatic events: 99 in May 2025 (the ICJ dismissal, Sudan's break with the UAE and an Amnesty International arms report) and 65 in January 2026 (Somalia's annulment of its UAE agreements).
-- **Count definition:** Across the 12 topic/language searches, `distinct_headlines` sums to **12,281**, after deduplication within each search. This is **not** a count of globally unique headlines because the topic searches overlap. The six `uae_headlines` topic counts sum to **980**, again with possible overlaps. Neither sum should be presented as a globally deduplicated count.
+- **Count definition:** Across the 12 topic/language searches, `distinct_headlines` sums to **12,281**, after deduplication within each search. This is **not** a count of globally unique headlines because the topic searches overlap. The six `uae_headlines` topic counts sum to **980**, again with possible overlaps. The 16,811 story matches are summed across searches in the same way. None of these sums should be presented as a globally deduplicated count.
 - On X, posts by UAE officials and the Emirati political scientist Abdulkhaleq Abdulla account for 52 percent of the views in the collection. Among Arabic posts on the claims, 41 percent of views went to posts citing a document or investigation, against 19 percent in English.
 
-The scripts reproduce these figures from the files in `data/`. The collection of X posts is a purposive sample, so its shares describe the posts collected, not X as a whole. See `METHODOLOGY.md` for limitations.
+The scripts recompute these figures from the processed files in `data/`. The collection of X posts is a purposive sample, so its shares describe the posts collected, not X as a whole. See `METHODOLOGY.md` for limitations.
+
+## What can be reproduced
+
+- **X posts:** every post is listed by ID and link, so the collection and its codes can be checked against the posts themselves.
+- **News coverage:** the scripts recompute the report's news figures from processed monthly counts. Story-level records (Media Cloud story IDs, URLs, outlets and headlines) are not included in this version, so the outlet exclusions and headline deduplication cannot be rerun or audited from this repository alone. The queries (`data/news/queries.csv`, UTF-8; use this file rather than the report's Annex A for exact strings), collections, excluded outlets and headline patterns are published, but rerunning the queries in Media Cloud will not return identical counts because its archive keeps changing. See section 4 of `METHODOLOGY.md`.
 
 ## Using the data
 
@@ -82,4 +87,8 @@ Abel W. Sugebo is Executive Director and Founder of Inform Africa/HaqCheck, a re
 
 ## Version
 
-1.0, November 2026. Claim verdicts reflect public evidence as of November 19, 2026; news data run to November 19, 2026; X posts were collected November 19 to 21, 2026.
+1.1, November 23, 2026. No data values changed. Clarifies that the story, headline and UAE-headline totals are sums across overlapping searches, describes what can and cannot be reproduced, and replaces the report PDF with version 1.1 (count wording, key figures and a legible Annex A).
+
+1.0, November 2026. First release.
+
+Dates for both versions: claim verdicts reflect public evidence as of November 19, 2026; news data run to November 19, 2026; X posts were collected November 19 to 21, 2026, to measure circulation; they are not part of the evidence behind the verdicts.

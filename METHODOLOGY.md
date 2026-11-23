@@ -20,7 +20,7 @@ Claims that surfaced during monitoring but fall outside the register are listed 
 2. Stories were deduplicated by normalized headline **within each topic/language search**, because a network of sites republishing wire copy under country names inflated some monthly counts nearly sevenfold. Each normalized headline is counted once per search, in the month it first appeared in that search. Searches were not deduplicated against one another.
 3. The headline measure counts only distinct headlines that name the UAE together with the topic, using the patterns in `data/news/headline_patterns.csv`.
 
-After exclusions, the searches matched 16,811 stories. The sum of within-search distinct headline counts is 12,281. Because topics can overlap, **12,281 must not be described as 12,281 globally unique news headlines**. Across topics, `uae_headlines` sums to 980; these topical counts can likewise overlap.
+After exclusions, the searches matched 16,811 stories, summed across the 12 searches; a story that matched more than one search counts once in each. The sum of within-search distinct headline counts is 12,281. Because topics can overlap, **12,281 must not be described as 12,281 globally unique news headlines**. Across topics, `uae_headlines` sums to 980; these topical counts can likewise overlap.
 
 **Checks.** Story-level totals matched Media Cloud's aggregate counts for every query. A random check of 24 headlines counted by the headline measure found all of them were about the UAE's role or relations in the country concerned.
 
@@ -36,6 +36,14 @@ After exclusions, the searches matched 16,811 stories. The sum of within-search 
 
 **Limitations.** The collection is a purposive sample of 89 posts, not a census, so shares describe the posts collected. Round 2 deliberately sought voices outside the UAE side, which affects comparisons between languages. View counts are X impressions captured at collection time and include repeat views. X search does not return every relevant post, and major outlets' accounts were under-represented in round 2. No test for coordinated or inauthentic behavior was run on this sample, so none is claimed.
 
-## 4. Ethics
+## 4. What can be reproduced
+
+**X posts.** `posts.csv` lists every post by ID and link, `post_claims.csv` and `post_frames.csv` hold the codes, and `scripts/summarize_x.py` recomputes the X figures. Anyone can open the posts and check the codes against them, subject to posts being deleted later.
+
+**News coverage.** `scripts/summarize_news.py` recomputes the news figures in the report from the processed monthly counts in `monthly_counts.csv`. The repository does not include story-level records (Media Cloud story IDs, URLs, outlets and headlines), so the outlet exclusions and the headline deduplication cannot be rerun or audited from this repository alone. What is published are the inputs and rules of that processing: the exact queries (`queries.csv`, UTF-8), the collections (`collections.csv`), the excluded outlets (`excluded_domains.csv`), and the normalization and headline patterns (this file and `headline_patterns.csv`). Rerunning the queries in Media Cloud will not return identical counts, because the archive keeps adding stories after publication dates.
+
+Media Cloud identifies each story by a hash of its normalized URL and shares story metadata and URLs, but not article text. A story-level file (story ID, URL, outlet, publication date, search, and exclusion and deduplication flags) would make the news processing auditable end to end; it is not part of version 1.1.
+
+## 5. Ethics
 
 Government bodies, officials, news outlets, organizations and public figures are named. Private individuals are pseudonymized, and their post links omit the handle. The repository shares post IDs, counts and derived codes rather than post text. Requests to remove a post or account can be sent to Inform Africa.
